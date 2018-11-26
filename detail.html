@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/detail.css"/>
+  </head>
+
+  <body>
+    <header class="lecake_header"></header>
+    <main>
+      <!-- 放大镜 -->
+      <section class="magnifyglass" >
+        <!-- <div class="box">
+            <div class="show-img">
+                <img src="images/display_15474_39428_03.png" alt="">
+                <span class="filter"></span>
+            </div>
+            <div class="magnify-img">
+                <img src="images/display_15474_39428_03.png" alt=""  id="big-img">
+            </div>
+        </div> -->
+      </section>
+      <!-- 商品详情 -->
+      <section class="goods_detail clearfix">
+        <div class="f_left left_wrap">
+         <div class="title_wrap clearfix">
+            <div>
+              <h1 class="title no_wrap f_left">
+                <span id="goodsTitle">美刀刀蛋糕</span>
+              </h1>
+              <div class="price_wrap f_right">
+                <p class="new_price">
+                  <small>¥</small> <span id="goodsPrice">298</span>
+                </p>
+              </div>
+            </div>
+          </div> 
+          <div id="promotion">
+            <div class="promotion">
+              <h5>
+                【彩虹之上&nbsp;乐享81层】2018.11.1-2018.11.29，购买蛋糕馆内任意蛋糕，每笔订单可9.9元加价购「熊抱彩虹吐司（半条）」1份，先到先得，不与其他优惠同享。配送时间截至2018.11.30。
+              </h5>
+              <h5>
+                【狂欢派对
+                甜蜜加倍】2018.11.1-2018.11.25，正价购买蛋糕馆内任意蛋糕，每笔订单赠半价蛋糕券1张（订单配送完成后48小时内到账）。配送时间截至2018.11.26。
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="f_right right_wrap">
+          <div class="eat_num">
+            <p class="spec_notice">建议食用人数</p>
+            <div class="persons clearfix">
+              <a href="#" class=" active"> 5-8人食 <b></b> </a>
+              <a href="#" class=" "> 12-16人食 <b></b> </a>
+            </div>
+          </div>
+          <div>
+            <div class="spec clearfix">
+              <p class="tableware no_wrap"><i></i> 含10套餐具</p>
+              <p class="size no_wrap"><i></i> 约32 x 20 x 4 cm</p>
+              <p class="weight"><i></i> 约700g</p>
+              <p class="sweet" id="2">甜度： <i class="level_2"></i></p>
+            </div>
+            <div class="spec hide clearfix">
+              <p class="tableware no_wrap"><i></i> 含20套餐具</p>
+              <p class="size no_wrap"><i></i> 约20 x 16 x 4 cm</p>
+              <p class="weight"><i></i> 约1400g</p>
+              <p class="sweet" id="2">甜度： <i class="level_2"></i></p>
+            </div>
+          </div>
+          <div class="btn_wrap clearfix">
+            <a  class="add_cart f_left" id="cartAdd">加入购物车＋</a>
+            <a  class="buy_now f_right" id="buyNow">立即购买</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="detail_footer"></footer>
+  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/public.js"></script>
+  <script src="js/detail.js"></script>
+  <script>
+    $(".detail_footer").load("public.html .global_footer");  
+  </script>
+</html>

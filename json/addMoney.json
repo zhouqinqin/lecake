@@ -1,0 +1,32 @@
+[
+    {
+        "tit":"飞利浦咖啡机",
+        "logistics":"第三方物流",
+        "price":"299",
+        "adprice":"269",
+        "src":"list_17720_o.jpg"
+    },
+    {
+        "tit":"飞利浦咖啡机",
+        "logistics":"第三方物流",
+        "price":"239",
+        "adprice":"219",
+        "src":"list_17726.jpg"
+    },
+    {
+        "tit":"飞利浦多士炉",
+        "logistics":"第三方物流",
+        "price":"499",
+        "adprice":"389",
+        "src":"list_18021_o.jpg"
+    },
+    {
+        "tit":"飞利浦电动剃须刀",
+        "logistics":"第三方物流",
+        "price":"119",
+        "adprice":"99",
+        "src":"list_17888.jpg"
+    }
+
+    
+]

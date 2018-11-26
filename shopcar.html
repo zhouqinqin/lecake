@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shopcar.css">
+</head>
+
+<body>
+    <header class="lecake_header">
+
+    </header>
+    <!-- 主要内容 -->
+    <div class="main">
+        <section class="login_status">
+            <span>您还没有登录，登录后购物车的商品将保存到您的账号中！</span>
+            <a href="login.html">立即登录</a>
+        </section>
+        <section class="yoursCart">
+            <a  href="lecake.html" style="color:#3e3e3e"><继续购物</a>
+            <h1>您的购物车
+                <span  id="cartGoods">
+                    （<b class="total_count">0</b>）
+                </span>
+            </h1>
+        </section>
+        <div class="goods_list">
+            <div class="goods_item ">  
+                <!-- <div class="goods_can " >
+                    <div class="item_message clearfix">
+                        <a style="color:#3e3e3e" href="#" class="check_status" ><i class="iconfont icon-dui"></i></a>
+                        <div class="img_wrap f_left">
+                            <a href="#" target="_blank"><img src="images/list_10838.jpg"></a>
+                        </div>
+                        <div class="p_info f_left">
+                            <div class="p_detail f_left">
+                                <h2 class="no_wrap"><a style="color:#3e3e3e" href="#" target="_blank">蔓越莓曲奇礼盒（樱花粉）</a></h2>
+                                <h3 class="no_wrap hide"></h3>
+                                <h4>1盒</h4>
+                                <div class="price_wrap">
+                                    <p class="new_price"><small>单价：￥</small>98</p>
+                                </div>
+                            </div>
+                            <div class="p_edit f_right">
+                                <p class="p_price">小计：￥196</p>
+                                <div class="input_wrap">
+                                    <a href="#" class="down num_edit_btn"><i class="iconfont icon-jian1"></i></a>
+                                    <input type="text" class="item_num" value="1">
+                                    <a href="#" class="up num_edit_btn"><i class="iconfont icon-jia"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="no_content hide">
+                    <img src="images/no_content (2).png">
+                    <p>您还没有选购商品，<a href="lecake.html">去逛逛!</a></p>
+            </div>
+            <h3 class="buy_notice hide" style="color: red; text-align: center; padding: 20px 0px;">
+                4月累计在线现金支付满298元(不含运费)并在当月完成配送，可获得礼品馆商品抵用券1张(该券于2018.5.8前发放)，可兑换98元米菲曲奇等部分商品(每个账户仅限1张)。
+            </h3>
+        </div>
+        
+        <section class="accessories">
+            <div class="wrap">
+                <h2>精品配件</h2>
+                <div class=" wrap_list">
+                    <!-- 轮播图 -->
+                    <a class="swiper_button prev_btn"id="p_btn"><i class="iconfont icon-zuo1" ></i></a>
+                    <!--右箭头-->
+                    <a class="swiper_button next_btn"id="n_btn"><i class="iconfont icon-you"></i></a>
+                   <div class="swiper_container  accessories_list">  
+                        <ul class="swiper_wrapper">
+                             <!-- <li class="swiper_slide">
+                                <a href="detail.html"><img src="images/carlist_10844.jpg" alt=""></a>
+                                <div class="p_info">
+                                    <h3 class="no_wrap">乐可可旋转烛台</h3>
+                                    <div class="price_wrap">
+                                        <span class="p_price">￥58</span>
+                                        <button class="add_cart">+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="weekly_delivery">
+            <div class="toast_buy">
+                <div class="top">
+                    <h2>熊抱吐司加价购</h2>
+                    <h3>只可与蛋糕商品一起购买，享受优惠多多</h3>
+                </div>
+                <nav class="toast_nav clearfix">
+                    <a href="#" class="f_left active"><span>甄选独立装</span></a> 
+                    <a href="#" class="f_right"><span>周边配套餐</span></a>
+                </nav>
+                <div class="single_list">
+                    <!--左箭头-->
+                    <a class="swiper_button prev_btn" id="l_btn"><i class="iconfont icon-zuo1" ></i></a>
+                    <!--右箭头-->
+                    <a class="swiper_button next_btn" id="r_btn"><i class="iconfont icon-you"></i></a>
+                    <div class="swiper_container  accessories_list">
+                        <ul class="swiper_wrapper_t">
+                            <!-- <li class="swiper_slide">
+                                <div class="img_wrap">
+                                    <a href="detail.html"><img src="images/list_17098_o.jpg" alt=""></a>
+                                </div>
+                                <div class="p_info">
+                                   <h3 class="no_wrap">熊抱原味匠心吐司（半条）</h3>
+                                   <div class="price_wrap">
+                                       <span class="p_price">￥38</span>
+                                       <button class="add_cart">+</button>
+                                   </div>
+                                </div>
+                            </li>   -->
+                            
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="markupList">
+            <div class="markup_wrap">
+                <h2>加价礼品</h2>
+                <ul class="gifts_new clearfix">
+                    <li class="gift_item">
+                        <a href="#" target="_blank">
+                            <div class="img_wrap">
+                                <div class="div_img"> <img src="images/list_17720_o.jpg"></div>
+                            </div>
+                        </a>
+                        <div class="p_info">
+                            <a href="# target="_blank"><h3 class="no_wrap p_name">飞利浦搅拌机</h3></a> 
+                            <div class="p_tag">
+                                <p class="third_logistics"><b class="text">第三方物流</b></p>
+                            </div>
+                            <div class="price_wrap">
+                                <p class="new_price"><small>¥</small> 299</p>
+                                <p class="markup_price"><span class="addmoney">加购价</span><i>￥</i> 269</p>
+                            </div> 
+                            <a href="#" class="buy_btn normal"><span>加入购物车&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span></a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="link_wrap"><a href="#">更多加价礼品&nbsp;&gt;</a></div>
+
+            </div>
+
+        </section>
+        <section class="amount">
+            <!-- <div class="wrap">
+                <div class="mini_width clearfix">
+                    <a  class="check_status active">全选<i class="iconfont icon-dui"></i></a>
+                    <a href="#" class="f_left delete_btn">删除</a>
+                    <p class="f_left total_count">共 <span>1</span> 件商品，已选择 <span>1</span> 件</p>
+                    <div class="f_right total_amount_wrap">
+                        <div class="inner">
+                            <p class="countAll"><span>应付(不含运费)：</span>￥<strong>239</strong></p>
+                        </div>
+                    </div>
+                    <button class="order_btn">结算</button>
+                </div>
+            </div> -->
+        </section>
+    </div>
+    
+    <footer class="global_footer">
+        <div class="footer_online">
+            <a href="" class="service_btn"><i class="iconfont icon-kefu"></i>在线客服</a>
+            <a href="" class="wx_btn"><img src="images/qr_code_bottom.png" /><i class="iconfont icon-weixin"></i>微信</a>
+        </div>
+        <div class="footer_tel">
+            <p>
+                <i class="iconfont icon-weibiaoti-"></i>
+                <span>客服电话：4001-578-578 服务时间（08:30-22:30）</span>
+            </p>
+        </div>
+        <div class="footer_nav clearfix">
+            <p>
+                <a href="#">诺心公告</a>
+                <span>|</span>
+                <a href="#">关于诺心</a>
+                <span>|</span>
+                <a href="#">联系我们</a>
+                <span>|</span>
+                <a href="#">客服服务</a>
+                <span>|</span>
+                <a href="#">食品经营许可证</a>
+                <span>|</span>
+                <a href="#">生产许可证</a>
+                <span>|</span>
+                <a href="#">预付费卡协议</a>
+                <span>|</span>
+                <a href="#"><i class="iconfont icon-guohui"></i>上海工商</a>
+            </p>
+        </div>
+        <div class="footer_address">
+            <p class="clearfix">
+                诺心食品（上海）有限公司&nbsp;&nbsp;上海徐汇区田林路140号28号楼503室&nbsp;&nbsp;客服邮箱：services@lecake.com&nbsp;&nbsp;公司电话：4001-578-578
+            </p>
+        </div>
+        <div class="footer_copy">
+            <p>copyright©2010-2017诺心lecake.com版权所有 沪ICP备10211730</p>
+        </div>
+    </footer>
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/shopcar.js"></script>
+<script src="js/public.js"></script>
+<script>
+ function jian(id){
+    //从cookie拿出所有的商品
+    var getUser = localStorage.getItem('user');
+    var UserGoodsInfo  = localStorage.getItem(getUser);
+    UserGoodsInfo = JSON.parse(UserGoodsInfo);
+    var b ;
+    // console.log(id);
+    if(UserGoodsInfo ){//去掉为空的情况，定义一个空的数组
+         for(var i =0;i<UserGoodsInfo.length;i++){
+        if(UserGoodsInfo [i].g_id ==id){
+            if( UserGoodsInfo [i].g_num==1){
+                UserGoodsInfo.splice(i,1);
+                var a =JSON.stringify(UserGoodsInfo);
+                localStorage.setItem(getUser ,a); 
+            }else{
+                UserGoodsInfo [i].g_num--; 
+                b=  UserGoodsInfo [i].g_num;
+                var a =JSON.stringify(UserGoodsInfo);
+                localStorage.setItem(getUser ,a); 
+            } 
+    
+        }
+    }
+    }
+    location.reload();
+}
+
+function jia(id){
+    var getUser = localStorage.getItem('user');
+    var UserGoodsInfo  = localStorage.getItem(getUser);
+    UserGoodsInfo = JSON.parse(UserGoodsInfo);
+    var b ;
+    // console.log(id);
+    if(UserGoodsInfo ){//去掉为空的情况，定义一个空的数组
+         for(var i =0;i<UserGoodsInfo.length;i++){
+        if(UserGoodsInfo [i].g_id ==id){
+            UserGoodsInfo [i].g_num++; 
+            b=  UserGoodsInfo [i].g_num;
+            var a =JSON.stringify(UserGoodsInfo);
+            localStorage.setItem(getUser ,a); 
+        }
+    }
+    }
+    location.reload();
+}
+
+
+</script>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/public.css">
+    <style>
+        main{
+            position: relative;
+            height: 520px;
+            background: url(images/background.jpg) no-repeat center;
+        }
+        .login_section{
+            width:1200px;
+            margin: auto;
+            position: relative; 
+        }
+        .banner_link {
+            position: absolute;
+            background: #dddddd;
+            opacity: 0.1;
+            z-index: 1;
+            width: 880px;
+            height: 520px;
+            left: 160px;
+            top: 0;
+        }
+        .login-form a:hover {
+            color: #f56600;
+        }
+    .login-form{
+        position: absolute;
+        top:20px;
+        right: 0px;
+        z-index: 20;
+        width: 400px;
+        height: 450px;
+        text-align: center;
+        font-size: 14px;
+        background:#ffffff; 
+        opacity:0.9; 
+    }
+    .login-form.inp-hint{
+        display:none;
+        margin-top:2px;
+        width: 322px;
+        margin-left: 36px;
+        color: #f56600;
+        position: absolute;
+        background:#dddddd;
+    }
+    .load {
+        padding: 30px 0 10px;
+        text-align: center;
+        font-size: 24px;
+        color:#666;
+    }
+    .line{
+        margin: 0 35px 0 42px;
+        color: #e0e0e0; 
+    }
+
+
+    .load .now{
+        color: red;
+    } 
+
+    .login-form input{
+        border: 1px solid  #dddddd;
+        width: 344px;
+        height: 40px;
+        margin-top:20px;
+    }
+    
+    .login_btn{
+        width: 346px;
+        height: 50px;
+        font-size: 20px;
+        line-height:50px;
+        color:white;
+        background:#ef5b00;
+        margin-top: 14px;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .operation{
+        margin-left:30px; 
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size:14px;
+        width: 346px;
+        height: 50px;
+    }
+    .regist{
+        line-height: 50px;
+        text-align: center;
+        float: left;  
+    }
+    .regist>a{
+        color: #ef5b00;
+    }
+    .regist span{
+        color: #ef5b00;
+    }
+    .operate{
+        line-height: 50px;
+        text-align: center;
+        float:right;
+        color: #999;
+    }
+    .operate>a{
+        color: #999;
+    }
+
+
+    /* 其它方式登录 */
+    .other_login_type{ 
+        width: 100%;
+        text-align: center;
+    }
+    .login_type_tit{
+        border-top: 1px solid #e0e0e0;
+        font-size: 14px;
+        color:#e0e0e0;
+    }
+
+    .oth_type_links {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .oth_type_links a{
+        display: inline-block;
+        width: 30px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 0 17px;
+    }
+    .oth_type_links a i{
+        font-size:28px;
+    }
+    .icons_type_qq{
+        color: #0288d1;
+    }
+    .icons_type_weichat{
+        color:#00d20d;
+    }
+    /* 扫码登录 */
+    .ercode_box .code_img{
+        margin-top:30px;
+    }
+    .code_img img{
+        width:280px;
+        height: auto;  
+    }
+    .custom_sub_txt {
+        padding-top: 14px;
+        font-size: 14px;
+        display: block;
+    }
+    .custom_sub_txt span{
+        padding: 0 5px;
+        color: #ff6700;
+    }
+
+    /* 登录注册 end */
+     
+    </style>
+</head>
+<body>
+    <header class="lecake_header"></header>
+    <main>
+        <section class="login_section"> 
+            <a href="" class="banner_link"></a>
+            <!-- 账号登录start -->
+            <form action="" class="login-form " onsubmit="return false">
+                    <div class="load">
+                        <a class="loadcode now">账号登录</a>
+                        <span class="line">|</span>
+                        <a class="loadMa">扫码登录</a>
+                    </div>
+                    <div class="idcode_pannel">
+                        <input type="text" placeholder="手机号码/诺心账号"  class="username" name="username"><br>
+                        <input type="password" placeholder="密码" class="password" name="password" data-error=><br>
+                        <button class="login_btn" name="btn">登录</button>
+                        <div class="operation">
+                            <div class="regist">
+                                <a href="">手机短信登录</a><span>/</span><a href="register.html">注册</a>
+                            </div>
+                            <div class="operate">
+                                <a id="remember" href="register.html">立即注册</a>
+                                <span>|</span>
+                                <a id="forget">忘记密码</a>
+                            </div>
+                        </div>
+                         <!-- 其它方式登录 -->
+                        <div class="other_login_type">
+                            <fieldset class="login_type_tit">
+                                <legend align="center" class="oth_type_txt">其他方式登录</legend>
+                            </fieldset>
+                            <div class="oth_type_links">
+                                <a href="" class="icons_type_qq"><i class="iconfont icon-QQ"></i></a>
+                                <a href="" class="icons_type_weichat"><i class="iconfont icon-weixin"></i></a>
+                            </div>
+                        </div>
+                  </div>
+                    <!-- 扫码登录 -->
+                    <div class="ercode_pannel hide" >
+                            <a class="code_close" title="关闭" id="qrcode-close"><span class="icon_code_close"></span></a>
+                            <div class="ercode_box">
+                                <div class="code_img">
+                                    <img src="images/001DEFAeLMeqUa5D.jpg"  alt="">
+                                </div>
+                                <div class="custom_sub_txt">
+                                    <p id="custom-qr-name">使用<span>微信APP</span>扫一扫</p>
+                                </div>
+                            </div>
+                    </div>
+    
+                   
+                </form>
+                <!-- 账号登录end -->
+        </section>
+        
+    </main>
+    <footer class="login_footer"></footer>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/login.js"></script>
+<script>
+    $(".login_footer").load("public.html .global_footer");
+</script>
+</html>

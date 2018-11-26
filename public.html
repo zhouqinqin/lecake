@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+    <!-- 公共头部 -->
+    <header class="header clearfix">
+        <div class="top">
+            <div class="top_bar">
+                <ul class="f_right clearfix">
+                    <li>
+                        <a id="login" href="login.html">登录</a><a id="login_n"></a>
+                        <span>/</span>
+                        <a id="regist" href="register.html">注册</a><a id="regist_n"></a>
+                        <i class=" iconfont icon-weixin" style="z-index:1000"><img src="images/qr_code_top.png" /></i>
+                        <a href="">微信</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 导航 -->
+        <section class="top_nav clearfix">
+            <a href="lecake.html" class="logo_img"><img src="images/logo_new.png" alt=""></a>
+            <div class="right_content">
+                <div class="select_wrap">
+                    <i class="iconfont icon-location"></i>
+                    <span class="currentCity">深圳</span> <a href="">查询地址是否可配送</a>
+                    <article class="city_selector" style="position:absolute">
+                        <header>
+                            <h3>
+                                当前选择城市
+                                <strong>
+                                    <i class="iconfont icon-location"></i>
+                                    深圳
+                                </strong>
+                            </h3>
+                            <a class=""></a>
+                        </header>
+                        <div class="main clearfix">
+
+                        </div>
+                    </article>
+                </div>
+                <div class="search_wrap">
+                    <p class="input_wrap">
+                        <input type="text" placeholder="雪域牛乳芝士">
+                    </p>
+                    <button class="btn"><i class="iconfont icon-fangdajing"></i></button>
+                    <a  href="shopcar.html">
+                        <span class="cartCount" style="width:20px;height:20px;border-radius:50%;color: #fff;position: relative;top:-14px;left:38px;background:red "></span> 
+                        <i class="iconfont icon-gouwuche2"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="clearfix">
+                <ul class="nav_wrap clearfix">
+                    <li><a href = "lecake.html" class="nav_list">首页</a></li>
+                    <li><a class="nav_list">蛋糕</a></li>
+                    <li><a class="nav_list">礼品</a></li>
+                    <li class="have_inner">
+                        <a class="nav_list">企业专区</a>
+                        <div class="inner_wrap" style="z-index:200;opacity: 0.9">
+                            <a href="">企业采购</a>
+                            <a href="">大客户区</a>
+                            <a href="">福利券区</a>
+                            <a href="">福利专区</a>
+                        </div>
+                    </li>
+                    <li class="have_inner">
+                        <a>我的诺心</a>
+                        <div class="inner_wrap" style="z-index:200;opacity: 0.9">
+                            <a href="">LECLUB</a>
+                            <a href="">我的订单</a>
+                            <a href="">找回密码</a>
+                            <a href="">礼品专区</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <div class="header_content clearfix">
+            <div class="top_bar">
+                <a class="cakelogo" href="lecake.html"><img src="images/logo_new.png" alt=""></a>
+                <div class="f_right">
+                    <div class="select_wrap">
+                        <a href="http://" class="select_city">
+                            <i class="iconfont icon-location"></i>
+                            <span class="currentCity">深圳</span>
+                            <a href="" style="display:none">查询地址是否可配送</a>
+                        </a>
+                    </div>
+                    <div class="input_wrap"><input type="text" class="nav_input" placeholder="雪域牛乳芝士"></div>
+                    <div class="search_wrap">
+                        <button class="nav_btn"><i class="iconfont icon-fangdajing"></i></button>
+                    </div>
+                    <div class="operate_wrap">
+                        <a id="nav_login">
+                            <i class="iconfont icon-yonghu"></i><i id="tupian"></i>
+                        </a>
+                        <p class="operation" style="width:24px">
+                            <a href="login.html">登录</a>
+                            <span></span>
+                            <a  href="register.html">注册</a>
+                        </p>
+
+                    </div>
+                    <div class="cart_wrap">
+                        <a  href="shopcar.html">
+                            <span class="cartCount" style="color: #fff;position: relative;top:-14px;left:38px;background:red ;border-radius: 50%"></span> 
+                            <i class="iconfont icon-gouwuche2"> </i>
+                        </a>
+                        <p>购物车中还没有商品，赶紧选购吧</p>
+                    </div>
+                </div>
+                <ul class="nav_wrap clearfix">
+                    <li><a href = "lecake.html" class="nav_list">首页</a></li>
+                    <li><a class="nav_list">蛋糕</a></li>
+                    <li><a class="nav_list">礼品</a></li>
+                    <li class="have_inner">
+                        <a class="nav_list">企业专区</a>
+                        <div class="inner_wrap">
+                            <a href="">企业采购</a>
+                            <a href="">大客户区</a>
+                            <a href="">福利券区</a>
+                            <a href="">福利专区</a>
+                        </div>
+                    </li>
+                    <li class="have_inner">
+                        <a>我的诺心</a>
+                        <div class="inner_wrap">
+                            <a href="">LECLUB</a>
+                            <a href="">我的订单</a>
+                            <a href="">找回密码</a>
+                            <a href="">礼品专区</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+    <!-- 结算部分  字符串模版 -->
+    <!-- <section class="amount">
+            <div class="wrap">
+                <div class="mini_width clearfix">
+                    <a href="#" class="check_status active">全选</a>
+                    <a href="#" class="f_left delete_btn">删除</a>
+                    <p class="f_left total_count">共 <span>1</span> 件商品，已选择 <span>1</span> 件</p>
+                    <div class="f_right total_amount_wrap">
+                        <div class="inner">
+                            <p><span>应付(不含运费)：</span>￥<strong>239</strong></p>
+                        </div>
+                    </div>
+                    <button class="order_btn">结算</button>
+                </div>
+            </div>
+    </section> -->
+    <!-- 公共尾部 -->
+    <footer class="global_footer">
+        <div class="footer_online">
+            <a href="" class="service_btn"><i class="iconfont icon-kefu"></i>在线客服</a>
+            <a href="" class="wx_btn"><img src="images/qr_code_bottom.png" /><i class="iconfont icon-weixin"></i>微信</a>
+        </div>
+        <div class="footer_tel">
+            <p>
+                <i class="iconfont icon-weibiaoti-"></i>
+                <span>客服电话：4001-578-578 服务时间（08:30-22:30）</span>
+            </p>
+        </div>
+        <div class="footer_nav clearfix">
+            <p>
+                <a href="#">诺心公告</a>
+                <span>|</span>
+                <a href="#">关于诺心</a>
+                <span>|</span>
+                <a href="#">联系我们</a>
+                <span>|</span>
+                <a href="#">客服服务</a>
+                <span>|</span>
+                <a href="#">食品经营许可证</a>
+                <span>|</span>
+                <a href="#">生产许可证</a>
+                <span>|</span>
+                <a href="#">预付费卡协议</a>
+                <span>|</span>
+                <a href="#"><i class="iconfont icon-guohui"></i>上海工商</a>
+            </p>
+        </div>
+        <div class="footer_address">
+            <p class="clearfix">
+                诺心食品（上海）有限公司&nbsp;&nbsp;上海徐汇区田林路140号28号楼503室&nbsp;&nbsp;客服邮箱：services@lecake.com&nbsp;&nbsp;公司电话：4001-578-578
+            </p>
+        </div>
+        <div class="footer_copy">
+            <p>copyright©2010-2017诺心lecake.com版权所有 沪ICP备10211730</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,318 @@
+@import url(common.css);
+@import url(public.css);
+main section {
+  width: 1200px;
+  margin: auto;
+  position: relative; }
+main .le_wriper .wrapper {
+  width: 1519px;
+  height: 475px;
+  position: relative; }
+  main .le_wriper .wrapper ul {
+    position: relative;
+    width: 1519px;
+    height: 475px;
+    overflow: hidden; }
+    main .le_wriper .wrapper ul li {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1519px;
+      height: 475px; }
+      main .le_wriper .wrapper ul li a img {
+        width: 1519px;
+        height: 475px; }
+  main .le_wriper .wrapper ol {
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    width: 120px; }
+    main .le_wriper .wrapper ol li {
+      float: left;
+      width: 15px;
+      height: 15px;
+      margin: 0 3px;
+      text-align: center;
+      border-radius: 50%;
+      cursor: default;
+      background-color: #abc; }
+    main .le_wriper .wrapper ol .current {
+      background-color: #ffffff; }
+  main .le_wriper .wrapper .swrap_btn {
+    position: absolute;
+    width: 35px;
+    height: 46px;
+    top: 50%;
+    margin-top: -23px;
+    background-image: url(../images/pre.png);
+    z-index: 10;
+    opacity: 0.1; }
+    main .le_wriper .wrapper .swrap_btn:hover {
+      opacity: 1; }
+  main .le_wriper .wrapper .left_btn {
+    left: 60px; }
+  main .le_wriper .wrapper .right_btn {
+    right: 60px;
+    background-position: -45px, 0; }
+main .le_cakes {
+  position: relative;
+  z-index: 20;
+  margin: -5% auto 20px;
+  background: #f9f9f9;
+  padding-bottom: 20px; }
+  main .le_cakes a {
+    font-size: 100%;
+    outline: 0;
+    color: inherit;
+    text-decoration: none; }
+  main .le_cakes .cake_activity {
+    margin-bottom: 20px; }
+    main .le_cakes .cake_activity a:first-of-type {
+      float: left; }
+    main .le_cakes .cake_activity a:last-of-type {
+      float: right; }
+  main .le_cakes .cake_list .cake_item {
+    float: left;
+    position: relative;
+    padding: 19px;
+    width: 260px;
+    overflow: hidden;
+    background: #ffffff;
+    margin: 1px;
+    font-size: 14px; }
+    main .le_cakes .cake_list .cake_item:hover {
+      background: #fcedef; }
+    main .le_cakes .cake_list .cake_item:hover .img_wrap {
+      transform: scale(1.01); }
+    main .le_cakes .cake_list .cake_item a .img_wrap {
+      height: 260px;
+      height: 260px;
+      overflow: hidden;
+      position: relative; }
+      main .le_cakes .cake_list .cake_item a .img_wrap .div_img {
+        width: 100%;
+        height: 100%; }
+        main .le_cakes .cake_list .cake_item a .img_wrap .div_img img {
+          max-width: 100%;
+          max-height: 100%; }
+  main .le_cakes .cake_list .c_info a h3 {
+    padding: 6px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: inherit; }
+  main .le_cakes .cake_list .c_info .c_flag {
+    margin-bottom: 10px;
+    min-height: 48px; }
+    main .le_cakes .cake_list .c_info .c_flag p {
+      margin-bottom: 4px;
+      display: inline-block;
+      padding-top: 0; }
+      main .le_cakes .cake_list .c_info .c_flag p b {
+        color: #ffffff;
+        background: #ff4001;
+        font-style: normal;
+        font-weight: normal; }
+  main .le_cakes .cake_list .c_info .price_wrap p {
+    display: inline;
+    margin-right: 4px; }
+    main .le_cakes .cake_list .c_info .price_wrap p small {
+      font-size: inherit;
+      margin-right: 2px; }
+  main .le_cakes .cake_list .c_info .price_wrap span {
+    font-size: 12px;
+    color: #ffffff;
+    background: #a38d6b;
+    margin-left: 20px; }
+  main .le_cakes .cake_list .c_info .price_wrap .markup_price {
+    position: relative;
+    font-size: 14px;
+    color: #a38d6b; }
+    main .le_cakes .cake_list .c_info .price_wrap .markup_price i {
+      font-style: normal;
+      font-weight: normal; }
+  main .le_cakes .cake_list .c_info .buy_btn {
+    color: #ff3500;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    font-size: 12px;
+    background: transparent; }
+main .link_wrap {
+  text-align: right;
+  margin-top: 18px;
+  font-size: 14px; }
+  main .link_wrap a {
+    background: transparent;
+    color: inherit;
+    text-decoration: none; }
+    main .link_wrap a:hover {
+      color: red; }
+main .pub_img {
+  width: 1519px;
+  height: 202px;
+  margin: auto;
+  position: relative; }
+  main .pub_img a {
+    font-size: 100%;
+    outline: 0;
+    color: inherit;
+    text-decoration: none; }
+    main .pub_img a img {
+      width: 100%;
+      height: 100%; }
+main .le_toast {
+  position: relative;
+  background: #f9f9f9;
+  padding-bottom: 20px; }
+  main .le_toast a {
+    background: transparent;
+    color: inherit;
+    text-decoration: none; }
+  main .le_toast .toast_list .toast_item {
+    float: left;
+    position: relative;
+    padding: 19px;
+    width: 260px;
+    overflow: hidden;
+    background: #ffffff;
+    margin: 1px;
+    font-size: 14px; }
+    main .le_toast .toast_list .toast_item:hover {
+      background: #fcedef; }
+    main .le_toast .toast_list .toast_item:hover .img_wrap {
+      transform: scale(1.01); }
+    main .le_toast .toast_list .toast_item a .img_wrap {
+      height: 260px;
+      height: 260px;
+      overflow: hidden;
+      position: relative; }
+      main .le_toast .toast_list .toast_item a .img_wrap .div_img {
+        width: 100%;
+        height: 100%; }
+        main .le_toast .toast_list .toast_item a .img_wrap .div_img img {
+          max-width: 100%;
+          max-height: 100%; }
+  main .le_toast .toast_list .c_info a h3 {
+    padding: 6px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: inherit; }
+  main .le_toast .toast_list .c_info .c_flag {
+    margin-bottom: 10px;
+    min-height: 48px; }
+    main .le_toast .toast_list .c_info .c_flag p {
+      margin-bottom: 4px;
+      display: inline-block;
+      padding-top: 0; }
+      main .le_toast .toast_list .c_info .c_flag p b {
+        color: #ffffff;
+        background: #ff4001;
+        font-style: normal;
+        font-weight: normal; }
+  main .le_toast .toast_list .c_info .price_wrap p {
+    display: inline;
+    margin-right: 4px; }
+    main .le_toast .toast_list .c_info .price_wrap p small {
+      font-size: inherit;
+      margin-right: 2px; }
+  main .le_toast .toast_list .c_info .price_wrap span {
+    font-size: 12px;
+    color: #ffffff;
+    background: #a38d6b;
+    margin-left: 20px; }
+  main .le_toast .toast_list .c_info .price_wrap .markup_price {
+    position: relative;
+    font-size: 14px;
+    color: #a38d6b; }
+    main .le_toast .toast_list .c_info .price_wrap .markup_price i {
+      font-style: normal;
+      font-weight: normal; }
+  main .le_toast .toast_list .c_info .buy_btn {
+    color: #ff3500;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    font-size: 12px;
+    background: transparent; }
+main .le_gifts {
+  position: relative;
+  background: #f9f9f9;
+  padding-bottom: 20px; }
+  main .le_gifts a {
+    background: transparent;
+    color: inherit;
+    text-decoration: none; }
+  main .le_gifts .gift_list .gift_item {
+    float: left;
+    position: relative;
+    padding: 19px;
+    width: 260px;
+    overflow: hidden;
+    background: #ffffff;
+    margin: 1px;
+    font-size: 14px; }
+    main .le_gifts .gift_list .gift_item:hover {
+      background: #fcedef; }
+    main .le_gifts .gift_list .gift_item:hover .img_wrap {
+      transform: scale(1.01); }
+    main .le_gifts .gift_list .gift_item a .img_wrap {
+      height: 260px;
+      height: 260px;
+      overflow: hidden;
+      position: relative; }
+      main .le_gifts .gift_list .gift_item a .img_wrap .div_img {
+        width: 100%;
+        height: 100%; }
+        main .le_gifts .gift_list .gift_item a .img_wrap .div_img img {
+          max-width: 100%;
+          max-height: 100%; }
+  main .le_gifts .gift_list .c_info a h3 {
+    padding: 6px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: inherit; }
+  main .le_gifts .gift_list .c_info .c_flag {
+    margin-bottom: 10px;
+    min-height: 48px; }
+    main .le_gifts .gift_list .c_info .c_flag p {
+      margin-bottom: 4px;
+      display: inline-block;
+      padding-top: 0; }
+      main .le_gifts .gift_list .c_info .c_flag p b {
+        color: #ffffff;
+        background: #ff4001;
+        font-style: normal;
+        font-weight: normal; }
+  main .le_gifts .gift_list .c_info .price_wrap p {
+    display: inline;
+    margin-right: 4px; }
+    main .le_gifts .gift_list .c_info .price_wrap p small {
+      font-size: inherit;
+      margin-right: 2px; }
+  main .le_gifts .gift_list .c_info .price_wrap span {
+    font-size: 12px;
+    color: #ffffff;
+    background: #a38d6b;
+    margin-left: 20px; }
+  main .le_gifts .gift_list .c_info .price_wrap .markup_price {
+    position: relative;
+    font-size: 14px;
+    color: #a38d6b; }
+    main .le_gifts .gift_list .c_info .price_wrap .markup_price i {
+      font-style: normal;
+      font-weight: normal; }
+  main .le_gifts .gift_list .c_info .buy_btn {
+    color: #ff3500;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    font-size: 12px;
+    background: transparent; }
+
+/*# sourceMappingURL=lecake.css.map */

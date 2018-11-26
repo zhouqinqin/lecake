@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/public.css">
+    <style>
+        main{
+            position: relative;
+            height: 520px;
+            background: url(images/background.jpg) no-repeat center;
+        }
+        .register_section{
+            width:1200px;
+            margin: auto;
+            position: relative; 
+        } 
+        .form_wrap{
+            width: 300px;
+            position: relative;
+            left:900px;
+            top:20px;
+            padding:20px;
+            background:#fff;
+            opacity:0.9;
+        }
+        .remind{
+            float:right;
+            padding:10px 0 20px 0;
+        }
+        .input_wrap {
+            margin-bottom: 30px;
+            font-size: 14px;
+            position: relative;
+        }
+        .input_wrap input{  
+            line-height: 30px;
+            height:30px;
+            width: 300px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        .error_message {
+            text-align: left;
+            text-indent: 24px;
+            display:none;
+            position: absolute;
+            top:5px;
+            width: 100%;
+            height: 24px;
+            left: 0;
+            top: 30px;
+            line-height: 24px;
+            font-size: 12px;
+            color: #ff0000;
+            overflow: hidden;
+        }
+        .username_wrap .error_message{
+            position:absolute;
+            top:80px;
+        }
+        .checkPhone{
+            position: absolute;
+            top:0px;
+            left: 210px;
+            font-size:12px;
+            color:#fe4320;
+        }
+        .checkUname{
+            position:absolute;
+            top:50px;
+            left: 210px;
+            font-size:12px;
+            color:#fe4320;  
+        }
+        .success{
+            position:absolute;
+            top:35px;
+            left:100px;
+            color: #fe4320;
+            font-size:18px;  
+        }
+        .register_btn{
+            display: block;
+            width: 300px;
+            height: 50px;
+            line-height: 50px;
+            background: #fe4320;
+            color: #ffffff;
+            font-size: 16px;
+        }
+         .bottom_link {
+            width: 300px;
+            margin-top: 12px;
+            position: relative;
+        }
+              
+        .rule a{
+            text-decoration: none;
+            color: #fe4320;
+            background:transparent;
+        }
+        
+        .bottom_link span{
+            text-align: left;
+            text-indent: 24px;
+            position: absolute;
+            width: 100%;
+            height: 24px;
+            left: 0;
+            top: 30px;
+            line-height: 24px;
+            font-size: 12px;
+            color: #ff0000;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header class="lecake_header"></header>
+    <main>
+        <section class="register_section"> 
+            <div class="form_wrap">
+                <p class="remind">
+                    已有诺心账号？<a href="login.html" class="login_link">请登录</a>
+                </p>
+                <p class="input_wrap username_wrap">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名" data-error="需要输入6-13位的字母或者下划线">
+                    <span class="error_message ">*请输入用户名</span>
+                    <span class="checkUname "></span>
+                </p>
+                <p class="input_wrap tel_wrap">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入手机号" data-error="手机号格式不正确">
+                    <span class="error_message ">*请输入手机号码</span>
+                    <span class=" checkPhone"></span>
+                </p>
+                <p class="input_wrap password_wrap">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="6-20位密码" data-error="密码格式不正确">
+                    <span class="error_message">*请输入密码</span>
+                </p>
+                <p class="input_wrap confirm_wrap">
+                    <input type="password" class="form-control" name="repassword" id="repassword" placeholder="请设置密码" data-error="两次密码输入不一致">
+                    <span class="error_message "></span>
+                    <span class="success"></span>
+                </p>
+                <button type="button" id="submitRegister" class="register_btn">立即注册</button>
+                <p class="clear_fix bottom_link">
+                    <input type="checkbox" id="rule" checked="">
+                    <label for="rule">我已阅读并同意<a href="/shop/help-41.html" target="_blank">《诺心lecake用户服务协议》</a></label>
+                    <span class="error_message hide">*用户服务协议未勾选</span>
+                </p>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="register_footer"></footer>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/register.js"></script>
+<script>
+    $(".register_footer").load("public.html .global_footer");
+    
+    verification.init();
+
+</script>
+</html>
